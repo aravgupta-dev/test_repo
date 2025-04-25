@@ -13,22 +13,6 @@
 
 ## Setup a Codespaces Environment in GitHub
 
-### Start a virtual environment
-
-```bash
-# assuming you're in the directory where you want to create your
-# `venv`
-python3 -m venv venv
-source venv/bin/activate
-```
-
-**[Optional]** when you want to exit / re‑enter your `venv`:
-
-```bash
-deactivate   # exit
-source venv/bin/activate   # re‑enter (run from the directory that contains `venv/`)
-```
-
 ## Package install
 
 Clone the **farm‑ng‑core** repo and build from source:
@@ -55,6 +39,16 @@ cd ../
 # Install farm-ng-amiga wheel, using farm-ng-core built from source
 pip install --no-build-isolation farm-ng-amiga
 ```
+
+### Start a virtual environment
+
+```bash
+# assuming you're in the directory where you want to create your
+# `venv`
+python3 -m venv venv
+source venv/bin/activate
+```
+
 
 ## Check installed version
 
